@@ -1,0 +1,27 @@
+  
+  .vidheading{
+    color:#2b7A78 ;
+    text-align: center;
+  }
+  .main-videoblock{
+    padding: 30px 100px;
+    width: 1000px;
+    height: 560px;
+    margin: 10px 90px;
+    border-width: 1px;
+  }
+  .main-video{
+  padding: 100px auto;
+    width: 1000px;
+    height: 550px;
+  }
+  .videos-container{
+    width: 800px;
+    display:flex;
+    justify-content:space-around;
+  }
+  .video-option{
+  width: 400px;
+  height: 450px;
+  margin:  5px 50px;
+  }

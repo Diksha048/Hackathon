@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mindsprint</title>
     <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <nav class="navbar">
@@ -20,12 +21,12 @@
             <li class="nav-item dropdown">
                 <a href="#" class="dropbtn">Paths</a>
                 <div class="dropdown-content">
-                    <a href="./pages/science_pages/science_main.html">1 to 12th</a>
-                    <a href="./pages/commerce.html">Junior College</a>
+                    <a href="./pages/science_pages/science_main.html">1 to 10th</a>
+                    <a href="./pages/junior.html">Junior College</a>
                     <a href="./pages/arts_pages/arts_main.html">Higher Studies</a>
                 </div>
             </li>
-            <li class="nav-item"><a href="./pages/contact.html">Wheel</a></li>
+            <li class="nav-item"><a href="wheel.html">Wheel</a></li>
             <li class="nav-item"><a href="./pages/contact.html">AI MindMap</a></li>
             <li class="nav-item"><a href="./pages/login.html">Login</a></li>
         </ul>
@@ -40,39 +41,67 @@
             <img id="theme-icon" src="./images/moon.png" alt="moon-icon">
         </div>
     </nav>
+<!-- First Section (MindSprint-like) -->
+<section id="home" class="home-section">
+    <div class="home-content">
+        <h1 class="h1tag">Welcome to MindSprint</h1>
+<p class="headline">Empower yourself with interactive courses and AI-driven learning.</p>
+    </div>
+</section>
 
-        <section class="foot">
-            <div class="footer">
-                <div class="first">
-                    <h3>USEFUL LINKS</h3>
-                    <a href="./index.html">Home</a>
-                    <a href="#">Categories</a>
-                    <a href="./index.html">Paths</a>
-                    <a href="./Pages/about.html">Wheel</a>
-                    <a href="./Pages/contact.html">AI Mindmap</a>
-                    <a href="./Pages/login.html">Login</a>
-                </div>
-                <div class="second">
-                    <h3>CONNECT WITH US</h3>
-                    <form>
-                        <input type="email" placeholder="Your E-Mail Address" required><br>
-                        <button type="submit">SUBSCRIBE NOW</button>
-                    </form>
-                </div>
-               <div class="third">
-                <h3>CONTACT US</h3>
-                <p style="color: rgb(174, 126, 6);">📞 6267255412</p><br>
-                <p style="color:rgb(88, 60, 10) ;"><span style="font-size: 20px; color: chocolate;">Address</span> : Avenue 123, street raod Robert Robertson, 
-                    <br>1234 NW Bobcat Lane,Robert Robertson, <br>1234 NW Bobcat Lane, St. Robert, MO 6267255412.</p>
-                <div class="icon">
-                    <a href="https://www.facebook.com/"><img src="./images/facebook.png"></a>
-                    <a href="https://x.com/"><img src="./images/twitter.png"></a>
-                    <a href="https://www.instagram.com/"><img src="./images/instagram.png"></a>
-                    <a href="https://www.linkedin.com/search/results/all/?keywords=educational&origin=GLOBAL_SEARCH_HEADER&sid=)au"><img src="./images/linkedin.png"></a>
-                </div>
-               </div>
-            </div>
-        </section>
-        <script src="./js/navbar.js"></script>
+<!-- Second Section (SkillWave-like) -->
+<section id="learning" class="learning-section">
+    <div class="learning-content">
+        <h1>Learning made Easy, Fun, and Accessible</h1>
+        <p>Empower yourself with knowledge and skills. Explore our wide range of courses available on multiple devices.</p>
+        <a href="#courses" class="btn">Browse Courses</a>
+        <a href="#join" class="btn">Join Now</a>
+    </div>
+    <div class="device-images">
+        <img src="./images/device-img.jpg" alt="Devices showing courses">
+    </div>
+</section>
+
+<div class="container-img ">
+    <img src="./images/1.jpg.png" id="img" class="img-gallery">
+    <img src="./images/left.png" type="button" class="button button-left" onclick="prev()">
+    <img src="./images/right.png" type="button" class="button button-right" onclick="next()">
+    </div>
+
+<section class="foot">
+    <div class="footer">
+        <div class="first">
+            <h3>USEFUL LINKS</h3>
+            <a href="./index.html">Home</a>
+            <a href="#">Categories</a>
+            <a href="./index.html">Paths</a>
+            <a href="./Pages/about.html">Wheel</a>
+            <a href="./Pages/contact.html">AI Mindmap</a>
+            <a href="./Pages/login.html">Login</a>
+        </div>
+        <div class="second">
+            <h3>CONNECT WITH US</h3>
+            <form>
+                <input type="email" placeholder="Your E-Mail Address" required><br>
+                <button type="submit">SUBSCRIBE NOW</button>
+            </form>
+        </div>
+       <div class="third">
+        <h3>CONTACT US</h3>
+        <p style="color: rgb(174, 126, 6);">📞 6267255412</p><br>
+        <p style="color:rgb(88, 60, 10) ;"><span style="font-size: 20px; color: chocolate;">Address</span> : Avenue 123, street raod Robert Robertson, 
+            <br>1234 NW Bobcat Lane,Robert Robertson, <br>1234 NW Bobcat Lane, St. Robert, MO 6267255412.</p>
+        <div class="icon">
+            <a href="https://www.facebook.com/"><img src="./images/facebook.png"></a>
+            <a href="https://x.com/"><img src="./images/twitter.png"></a>
+            <a href="https://www.instagram.com/"><img src="./images/instagram.png"></a>
+            <a href="https://www.linkedin.com/search/results/all/?keywords=educational&origin=GLOBAL_SEARCH_HEADER&sid=)au"><img src="./images/linkedin.png"></a>
+        </div>
+       </div>
+    </div>
+</section>
+
+    <script src="./js/navbar.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 </html>

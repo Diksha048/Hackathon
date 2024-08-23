@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../css/navbar.css">
+    <link rel="stylesheet" href="./../css/junior.css">
+</head>
+<body>
+</div>
+<nav class="navbar">
+    <div class="nav-logo">
+        <a href="./../index.html">
+            <img src="./../images/education.png" alt="brand logo">
+            Mindsprint
+        </a>
+    </div>
+
+    <ul class="nav-menu" id="navMenu">
+        <li class="nav-item"><a href="./../index.html">Home</a></li>
+        <li class="nav-item dropdown">
+            <a href="#" class="dropbtn">Paths</a>
+            <div class="dropdown-content">
+                <a href="./../pages/">1 to 10th</a>
+                <a href="./../pages/junior.html">Junior College</a>
+                <a href="./../pages/higher.html">Higher Studies</a>
+            </div>
+        </li>
+        <li class="nav-item"><a href="./../wheel.html">Wheel</a></li>
+        <li class="nav-item"><a href="./../pages/">AI MindMap</a></li>
+        <li class="nav-item"><a href="./../pages/login.html">Login</a></li>
+    </ul>
+
+    <div class="dropdown-items" id="dropdown-items">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="theme-changer">
+        <img id="theme-icon" src="./../images/moon.png" alt="moon-icon">
+    </div>
+</nav>
+<h2 class="vidheading">Top Recommended Videos...</h2>
+    <div class="main-videoblock">
+       <video  poster="" controls class="main-video" id="main-video">
+           <source src="../../art-video/career.mp4" type="video/mp4">
+       </video>
+   </div>
+   <div class="videos-container">
+       <video  poster="./../images/What to do after 10th_ Career option in science, commerce and arts __ Career guidance after 10th.mp4" controls class="video-option" onclick="ChangeVideo(1)" >
+           <source  type="video/mp4">
+       </video>
+
+       <video  poster="../../images/arts-page-image/10art.jpeg" controls class="video-option" onclick="ChangeVideo(2)">
+           <source type="video/mp4">
+       </video>
+  
+       <video poster="../../images/arts-page-image/after12.jpeg" controls class="video-option" onclick="ChangeVideo(3)">
+           <source  type="video/mp4">
+       </video>
+   </div>
+<script src="./../js/navbar.js"></script>
+<script src="./../js/junior.js"></script>
+</body>
+</html>

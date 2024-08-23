@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/wheel.css"/>
+    <link rel="stylesheet" href="./css/navbar.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <a href="index.html">
+                <img src="./images/education.png" alt="brand logo">
+                Mindsprint
+            </a>
+        </div>
+
+        <ul class="nav-menu" id="navMenu">
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item dropdown">
+                <a href="#" class="dropbtn">Paths</a>
+                <div class="dropdown-content">
+                    <a href="./pages/science_pages/science_main.html">1 to 10th</a>
+                    <a href="./pages/commerce.html">Junior College</a>
+                    <a href="./pages/arts_pages/arts_main.html">Higher Studies</a>
+                </div>
+            </li>
+            <li class="nav-item"><a href="wheel.html">Wheel</a></li>
+            <li class="nav-item"><a href="./pages/contact.html">AI MindMap</a></li>
+            <li class="nav-item"><a href="./pages/login.html">Login</a></li>
+        </ul>
+
+        <div class="dropdown-items" id="dropdown-items">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="theme-changer">
+            <img id="theme-icon" src="./images/moon.png" alt="moon-icon">
+        </div>
+    </nav>
+    <section>
+        <div id="spin_the_wheel">
+            <canvas id="wheel" width="500" height="500"></canvas>
+            <div id="spin">SPIN</div>
+          </div>
+        </div>
+        <h2 class="h2">Spin the Wheel</h2>
+    </section>
+    
+    <script  src="./js/wheel.js"></script>
+</body>
+</html>
